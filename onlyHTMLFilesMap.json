@@ -1,0 +1,2714 @@
+{
+    "": {},
+    "std": {
+        "files": [
+            "keyword.union.html",
+            "keyword.loop.html",
+            "keyword.super.html",
+            "keyword.extern.html",
+            "macro.include_str!.html",
+            "all.html",
+            "macro.debug_assert.html",
+            "keyword.fn.html",
+            "macro.include!.html",
+            "keyword.unsafe.html",
+            "macro.env.html",
+            "macro.println!.html",
+            "primitive.i64.html",
+            "macro.log_syntax.html",
+            "macro.compile_error.html",
+            "keyword.false.html",
+            "primitive.str.html",
+            "macro.eprintln!.html",
+            "macro.stringify!.html",
+            "primitive.i16.html",
+            "primitive.slice.html",
+            "macro.debug_assert_eq!.html",
+            "macro.include_bytes.html",
+            "macro.assert_eq!.html",
+            "macro.writeln!.html",
+            "macro.option_env!.html",
+            "macro.env!.html",
+            "macro.unimplemented.html",
+            "macro.panic!.html",
+            "primitive.fn.html",
+            "primitive.i8.html",
+            "macro.concat_idents!.html",
+            "macro.matches.html",
+            "macro.try.html",
+            "keyword.async.html",
+            "macro.debug_assert!.html",
+            "macro.module_path.html",
+            "keyword.SelfTy.html",
+            "macro.panic.html",
+            "macro.cfg.html",
+            "macro.unreachable!.html",
+            "macro.assert.html",
+            "macro.debug_assert_ne.html",
+            "keyword.struct.html",
+            "macro.println.html",
+            "macro.line!.html",
+            "keyword.while.html",
+            "macro.debug_assert_eq.html",
+            "primitive.u32.html",
+            "keyword.enum.html",
+            "primitive.i32.html",
+            "macro.file.html",
+            "macro.is_x86_feature_detected.html",
+            "keyword.match.html",
+            "macro.write!.html",
+            "keyword.trait.html",
+            "macro.vec!.html",
+            "keyword.move.html",
+            "primitive.bool.html",
+            "macro.column.html",
+            "primitive.u128.html",
+            "primitive.char.html",
+            "macro.cfg_match!.html",
+            "keyword.impl.html",
+            "macro.dbg.html",
+            "macro.print.html",
+            "macro.column!.html",
+            "keyword.pub.html",
+            "keyword.break.html",
+            "macro.const_format_args.html",
+            "macro.dbg!.html",
+            "macro.concat!.html",
+            "macro.format.html",
+            "index.html",
+            "macro.debug_assert_ne!.html",
+            "macro.try!.html",
+            "macro.format_args!.html",
+            "macro.assert_ne!.html",
+            "keyword.where.html",
+            "keyword.return.html",
+            "primitive.i128.html",
+            "keyword.type.html",
+            "primitive.u8.html",
+            "macro.concat_bytes!.html",
+            "macro.todo.html",
+            "keyword.crate.html",
+            "macro.stringify.html",
+            "macro.trace_macros!.html",
+            "keyword.continue.html",
+            "macro.unreachable.html",
+            "primitive.usize.html",
+            "macro.thread_local!.html",
+            "macro.option_env.html",
+            "keyword.let.html",
+            "primitive.pointer.html",
+            "macro.print!.html",
+            "macro.format_args_nl!.html",
+            "primitive.u16.html",
+            "keyword.static.html",
+            "macro.eprint!.html",
+            "macro.log_syntax!.html",
+            "macro.line.html",
+            "macro.file!.html",
+            "primitive.f32.html",
+            "primitive.array.html",
+            "primitive.u64.html",
+            "primitive.isize.html",
+            "macro.is_x86_feature_detected!.html",
+            "macro.write.html",
+            "macro.vec.html",
+            "keyword.as.html",
+            "macro.format_args_nl.html",
+            "macro.assert!.html",
+            "keyword.await.html",
+            "macro.todo!.html",
+            "keyword.use.html",
+            "macro.module_path!.html",
+            "keyword.else.html",
+            "keyword.in.html",
+            "macro.format!.html",
+            "macro.assert_ne.html",
+            "primitive.reference.html",
+            "macro.matches!.html",
+            "primitive.tuple.html",
+            "macro.thread_local.html",
+            "primitive.unit.html",
+            "keyword.true.html",
+            "macro.eprint.html",
+            "macro.concat_bytes.html",
+            "macro.concat_idents.html",
+            "macro.const_format_args!.html",
+            "keyword.if.html",
+            "macro.trace_macros.html",
+            "macro.cfg!.html",
+            "keyword.self.html",
+            "primitive.never.html",
+            "macro.eprintln.html",
+            "macro.cfg_match.html",
+            "macro.assert_eq.html",
+            "keyword.dyn.html",
+            "keyword.const.html",
+            "macro.format_args.html",
+            "macro.compile_error!.html",
+            "primitive.f64.html",
+            "macro.include_bytes!.html",
+            "macro.include_str.html",
+            "macro.writeln.html",
+            "macro.unimplemented!.html",
+            "keyword.mod.html",
+            "keyword.for.html",
+            "macro.concat.html",
+            "keyword.mut.html",
+            "keyword.ref.html",
+            "macro.include.html"
+        ],
+        "ascii": {
+            "files": [
+                "fn.escape_default.html",
+                "index.html",
+                "trait.AsciiExt.html",
+                "enum.Char.html",
+                "struct.EscapeDefault.html"
+            ]
+        },
+        "panic": {
+            "files": [
+                "struct.Location.html",
+                "fn.get_backtrace_style.html",
+                "fn.set_hook.html",
+                "trait.UnwindSafe.html",
+                "fn.set_backtrace_style.html",
+                "fn.panic_any.html",
+                "index.html",
+                "trait.RefUnwindSafe.html",
+                "fn.update_hook.html",
+                "fn.resume_unwind.html",
+                "struct.PanicInfo.html",
+                "fn.catch_unwind.html",
+                "struct.AssertUnwindSafe.html",
+                "fn.take_hook.html",
+                "fn.always_abort.html",
+                "enum.BacktraceStyle.html"
+            ]
+        },
+        "i32": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "result": {
+            "files": [
+                "struct.Iter.html",
+                "enum.Result.html",
+                "struct.IntoIter.html",
+                "index.html",
+                "struct.IterMut.html"
+            ]
+        },
+        "mem": {
+            "files": [
+                "fn.drop.html",
+                "struct.Discriminant.html",
+                "fn.transmute.html",
+                "fn.replace.html",
+                "fn.align_of.html",
+                "fn.uninitialized.html",
+                "fn.needs_drop.html",
+                "fn.min_align_of_val.html",
+                "fn.forget.html",
+                "fn.size_of_val_raw.html",
+                "fn.transmute_copy.html",
+                "fn.take.html",
+                "fn.align_of_val_raw.html",
+                "fn.copy.html",
+                "index.html",
+                "trait.BikeshedIntrinsicFrom.html",
+                "struct.Assume.html",
+                "fn.zeroed.html",
+                "union.MaybeUninit.html",
+                "fn.size_of_val.html",
+                "fn.forget_unsized.html",
+                "fn.min_align_of.html",
+                "fn.discriminant.html",
+                "struct.ManuallyDrop.html",
+                "fn.swap.html",
+                "fn.align_of_val.html",
+                "fn.size_of.html",
+                "macro.offset_of.html",
+                "fn.variant_count.html",
+                "macro.offset_of!.html"
+            ]
+        },
+        "u32": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "i128": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "panicking": {
+            "files": [
+                "fn.set_hook.html",
+                "fn.update_hook.html",
+                "fn.take_hook.html"
+            ]
+        },
+        "option": {
+            "files": [
+                "struct.Iter.html",
+                "struct.IntoIter.html",
+                "index.html",
+                "enum.Option.html",
+                "struct.IterMut.html"
+            ]
+        },
+        "u8": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "any": {
+            "files": [
+                "fn.type_name_of_val.html",
+                "fn.type_name.html",
+                "index.html",
+                "struct.TypeId.html",
+                "trait.Any.html"
+            ]
+        },
+        "cell": {
+            "files": [
+                "struct.Cell.html",
+                "struct.OnceCell.html",
+                "index.html",
+                "struct.BorrowMutError.html",
+                "struct.RefCell.html",
+                "struct.UnsafeCell.html",
+                "struct.LazyCell.html",
+                "struct.Ref.html",
+                "struct.BorrowError.html",
+                "struct.SyncUnsafeCell.html",
+                "struct.RefMut.html"
+            ]
+        },
+        "i8": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "usize": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "fmt": {
+            "files": [
+                "struct.FormatterFn.html",
+                "struct.DebugSet.html",
+                "type.Result.html",
+                "struct.Error.html",
+                "enum.Alignment.html",
+                "derive.Debug.html",
+                "struct.DebugList.html",
+                "trait.Binary.html",
+                "trait.Write.html",
+                "fn.write.html",
+                "trait.UpperHex.html",
+                "trait.Pointer.html",
+                "struct.Formatter.html",
+                "index.html",
+                "trait.Debug.html",
+                "trait.Display.html",
+                "fn.format.html",
+                "struct.Arguments.html",
+                "struct.DebugMap.html",
+                "trait.LowerHex.html",
+                "trait.UpperExp.html",
+                "trait.Octal.html",
+                "struct.DebugTuple.html",
+                "struct.DebugStruct.html",
+                "trait.LowerExp.html"
+            ]
+        },
+        "clone": {
+            "files": [
+                "index.html",
+                "derive.Clone.html",
+                "trait.Clone.html"
+            ]
+        },
+        "hash": {
+            "files": [
+                "struct.BuildHasherDefault.html",
+                "struct.SipHasher.html",
+                "index.html",
+                "trait.BuildHasher.html",
+                "derive.Hash.html",
+                "trait.Hash.html",
+                "trait.Hasher.html"
+            ]
+        },
+        "char": {
+            "files": [
+                "constant.UNICODE_VERSION.html",
+                "fn.decode_utf16.html",
+                "struct.TryFromCharError.html",
+                "struct.ParseCharError.html",
+                "struct.DecodeUtf16.html",
+                "fn.from_digit.html",
+                "fn.from_u32.html",
+                "constant.MAX.html",
+                "fn.from_u32_unchecked.html",
+                "struct.EscapeUnicode.html",
+                "index.html",
+                "struct.ToLowercase.html",
+                "struct.DecodeUtf16Error.html",
+                "struct.CharTryFromError.html",
+                "struct.EscapeDefault.html",
+                "struct.ToUppercase.html",
+                "constant.REPLACEMENT_CHARACTER.html",
+                "struct.EscapeDebug.html"
+            ]
+        },
+        "simd": {
+            "files": [
+                "trait.Swizzle.html",
+                "type.i64x32.html",
+                "type.i64x4.html",
+                "type.f32x64.html",
+                "type.i32x1.html",
+                "type.i8x2.html",
+                "type.i8x1.html",
+                "type.f32x4.html",
+                "type.f64x64.html",
+                "type.i8x64.html",
+                "type.isizex4.html",
+                "type.mask32x2.html",
+                "type.f64x4.html",
+                "type.u16x1.html",
+                "type.u32x64.html",
+                "type.masksizex1.html",
+                "type.i16x64.html",
+                "type.i64x16.html",
+                "enum.Which.html",
+                "type.u8x2.html",
+                "type.mask32x64.html",
+                "type.i8x4.html",
+                "trait.Swizzle2.html",
+                "trait.SimdUint.html",
+                "trait.SimdCast.html",
+                "type.mask16x1.html",
+                "trait.SimdMutPtr.html",
+                "type.i16x4.html",
+                "type.i64x64.html",
+                "type.i8x32.html",
+                "type.f64x2.html",
+                "type.u8x4.html",
+                "type.usizex8.html",
+                "type.isizex8.html",
+                "type.mask8x16.html",
+                "type.i64x1.html",
+                "type.isizex16.html",
+                "type.mask32x32.html",
+                "type.i32x8.html",
+                "trait.MaskElement.html",
+                "type.mask8x8.html",
+                "type.mask64x16.html",
+                "type.f32x1.html",
+                "type.mask16x16.html",
+                "type.i16x1.html",
+                "type.u8x1.html",
+                "type.mask16x8.html",
+                "trait.StdFloat.html",
+                "trait.SimdOrd.html",
+                "type.i32x32.html",
+                "type.f32x32.html",
+                "type.i8x16.html",
+                "trait.SimdPartialOrd.html",
+                "type.usizex2.html",
+                "type.u32x4.html",
+                "type.u8x64.html",
+                "type.mask64x8.html",
+                "type.u8x32.html",
+                "macro.simd_swizzle!.html",
+                "type.u32x1.html",
+                "type.f64x8.html",
+                "type.mask16x2.html",
+                "type.mask16x32.html",
+                "type.i32x64.html",
+                "type.i8x8.html",
+                "trait.SimdFloat.html",
+                "struct.LaneCount.html",
+                "type.mask32x16.html",
+                "type.u8x16.html",
+                "type.isizex1.html",
+                "type.masksizex16.html",
+                "type.u64x2.html",
+                "type.i32x4.html",
+                "type.mask8x2.html",
+                "type.mask16x64.html",
+                "type.i16x8.html",
+                "type.usizex32.html",
+                "type.f32x16.html",
+                "type.u16x64.html",
+                "type.u64x1.html",
+                "type.u32x16.html",
+                "type.u64x32.html",
+                "type.usizex16.html",
+                "type.mask8x1.html",
+                "type.i16x32.html",
+                "type.masksizex2.html",
+                "index.html",
+                "type.isizex32.html",
+                "type.mask32x1.html",
+                "trait.SimdConstPtr.html",
+                "type.mask16x4.html",
+                "type.mask32x4.html",
+                "type.isizex64.html",
+                "type.f64x1.html",
+                "type.usizex64.html",
+                "type.mask64x64.html",
+                "struct.Mask.html",
+                "type.mask8x64.html",
+                "type.f32x8.html",
+                "type.i16x2.html",
+                "macro.simd_swizzle.html",
+                "type.i64x2.html",
+                "type.mask8x4.html",
+                "type.mask64x4.html",
+                "trait.ToBitMask.html",
+                "type.mask64x2.html",
+                "trait.SimdPartialEq.html",
+                "type.u32x2.html",
+                "type.masksizex4.html",
+                "type.masksizex64.html",
+                "type.u32x8.html",
+                "type.u16x4.html",
+                "type.mask64x1.html",
+                "trait.SimdElement.html",
+                "type.u16x32.html",
+                "type.u16x2.html",
+                "type.u16x8.html",
+                "type.u64x8.html",
+                "type.u16x16.html",
+                "trait.SimdInt.html",
+                "type.f64x32.html",
+                "type.masksizex32.html",
+                "type.mask64x32.html",
+                "type.mask32x8.html",
+                "type.u64x64.html",
+                "type.u64x4.html",
+                "type.u8x8.html",
+                "type.usizex1.html",
+                "type.f64x16.html",
+                "type.masksizex8.html",
+                "type.u64x16.html",
+                "type.mask8x32.html",
+                "type.i16x16.html",
+                "struct.Simd.html",
+                "type.u32x32.html",
+                "type.i64x8.html",
+                "trait.SupportedLaneCount.html",
+                "type.i32x2.html",
+                "type.f32x2.html",
+                "type.isizex2.html",
+                "type.i32x16.html",
+                "type.usizex4.html"
+            ],
+            "prelude": {
+                "files": [
+                    "type.i64x32.html",
+                    "type.i64x4.html",
+                    "type.f32x64.html",
+                    "type.i32x1.html",
+                    "type.i8x2.html",
+                    "type.i8x1.html",
+                    "type.f32x4.html",
+                    "type.f64x64.html",
+                    "type.i8x64.html",
+                    "type.isizex4.html",
+                    "type.mask32x2.html",
+                    "type.f64x4.html",
+                    "type.u16x1.html",
+                    "type.u32x64.html",
+                    "type.masksizex1.html",
+                    "type.i16x64.html",
+                    "type.i64x16.html",
+                    "type.u8x2.html",
+                    "type.mask32x64.html",
+                    "type.i8x4.html",
+                    "trait.SimdUint.html",
+                    "type.mask16x1.html",
+                    "trait.SimdMutPtr.html",
+                    "type.i16x4.html",
+                    "type.i64x64.html",
+                    "type.i8x32.html",
+                    "type.f64x2.html",
+                    "type.u8x4.html",
+                    "type.usizex8.html",
+                    "type.isizex8.html",
+                    "type.mask8x16.html",
+                    "type.i64x1.html",
+                    "type.isizex16.html",
+                    "type.mask32x32.html",
+                    "type.i32x8.html",
+                    "type.mask8x8.html",
+                    "type.mask64x16.html",
+                    "type.f32x1.html",
+                    "type.mask16x16.html",
+                    "type.i16x1.html",
+                    "type.u8x1.html",
+                    "type.mask16x8.html",
+                    "trait.SimdOrd.html",
+                    "type.i32x32.html",
+                    "type.f32x32.html",
+                    "type.i8x16.html",
+                    "trait.SimdPartialOrd.html",
+                    "type.usizex2.html",
+                    "type.u32x4.html",
+                    "type.u8x64.html",
+                    "type.mask64x8.html",
+                    "type.u8x32.html",
+                    "macro.simd_swizzle!.html",
+                    "type.u32x1.html",
+                    "type.f64x8.html",
+                    "type.mask16x2.html",
+                    "type.mask16x32.html",
+                    "type.i32x64.html",
+                    "type.i8x8.html",
+                    "trait.SimdFloat.html",
+                    "type.mask32x16.html",
+                    "type.u8x16.html",
+                    "type.isizex1.html",
+                    "type.masksizex16.html",
+                    "type.u64x2.html",
+                    "type.i32x4.html",
+                    "type.mask8x2.html",
+                    "type.mask16x64.html",
+                    "type.i16x8.html",
+                    "type.usizex32.html",
+                    "type.f32x16.html",
+                    "type.u16x64.html",
+                    "type.u64x1.html",
+                    "type.u32x16.html",
+                    "type.u64x32.html",
+                    "type.usizex16.html",
+                    "type.mask8x1.html",
+                    "type.i16x32.html",
+                    "type.masksizex2.html",
+                    "index.html",
+                    "type.isizex32.html",
+                    "type.mask32x1.html",
+                    "trait.SimdConstPtr.html",
+                    "type.mask16x4.html",
+                    "type.mask32x4.html",
+                    "type.isizex64.html",
+                    "type.f64x1.html",
+                    "type.usizex64.html",
+                    "type.mask64x64.html",
+                    "struct.Mask.html",
+                    "type.mask8x64.html",
+                    "type.f32x8.html",
+                    "type.i16x2.html",
+                    "macro.simd_swizzle.html",
+                    "type.i64x2.html",
+                    "type.mask8x4.html",
+                    "type.mask64x4.html",
+                    "type.mask64x2.html",
+                    "trait.SimdPartialEq.html",
+                    "type.u32x2.html",
+                    "type.masksizex4.html",
+                    "type.masksizex64.html",
+                    "type.u32x8.html",
+                    "type.u16x4.html",
+                    "type.mask64x1.html",
+                    "type.u16x32.html",
+                    "type.u16x2.html",
+                    "type.u16x8.html",
+                    "type.u64x8.html",
+                    "type.u16x16.html",
+                    "trait.SimdInt.html",
+                    "type.f64x32.html",
+                    "type.masksizex32.html",
+                    "type.mask64x32.html",
+                    "type.mask32x8.html",
+                    "type.u64x64.html",
+                    "type.u64x4.html",
+                    "type.u8x8.html",
+                    "type.usizex1.html",
+                    "type.f64x16.html",
+                    "type.masksizex8.html",
+                    "type.u64x16.html",
+                    "type.mask8x32.html",
+                    "type.i16x16.html",
+                    "struct.Simd.html",
+                    "type.u32x32.html",
+                    "type.i64x8.html",
+                    "type.i32x2.html",
+                    "type.f32x2.html",
+                    "type.isizex2.html",
+                    "type.i32x16.html",
+                    "type.usizex4.html"
+                ]
+            }
+        },
+        "path": {
+            "files": [
+                "struct.PathBuf.html",
+                "struct.Iter.html",
+                "struct.Ancestors.html",
+                "fn.absolute.html",
+                "struct.Display.html",
+                "constant.MAIN_SEPARATOR_STR.html",
+                "struct.Path.html",
+                "enum.Component.html",
+                "index.html",
+                "constant.MAIN_SEPARATOR.html",
+                "fn.is_separator.html",
+                "enum.Prefix.html",
+                "struct.Components.html",
+                "struct.StripPrefixError.html",
+                "struct.PrefixComponent.html"
+            ]
+        },
+        "ops": {
+            "files": [
+                "trait.Try.html",
+                "trait.BitXor.html",
+                "struct.Range.html",
+                "trait.FnMut.html",
+                "trait.Residual.html",
+                "trait.OneSidedRange.html",
+                "trait.RemAssign.html",
+                "trait.Not.html",
+                "trait.Neg.html",
+                "trait.BitOrAssign.html",
+                "trait.CoerceUnsized.html",
+                "enum.ControlFlow.html",
+                "enum.Bound.html",
+                "trait.DerefMut.html",
+                "trait.DivAssign.html",
+                "trait.Sub.html",
+                "trait.MulAssign.html",
+                "struct.RangeToInclusive.html",
+                "trait.DispatchFromDyn.html",
+                "trait.BitOr.html",
+                "struct.RangeInclusive.html",
+                "trait.Drop.html",
+                "trait.Add.html",
+                "trait.RangeBounds.html",
+                "trait.Coroutine.html",
+                "struct.RangeFull.html",
+                "trait.FnOnce.html",
+                "trait.BitAndAssign.html",
+                "trait.AddAssign.html",
+                "trait.SubAssign.html",
+                "index.html",
+                "trait.Fn.html",
+                "trait.Rem.html",
+                "struct.Yeet.html",
+                "trait.BitAnd.html",
+                "trait.Deref.html",
+                "enum.CoroutineState.html",
+                "struct.RangeFrom.html",
+                "trait.ShrAssign.html",
+                "trait.Index.html",
+                "trait.FromResidual.html",
+                "trait.IndexMut.html",
+                "trait.BitXorAssign.html",
+                "struct.RangeTo.html",
+                "trait.ShlAssign.html",
+                "trait.Mul.html",
+                "trait.Shr.html",
+                "trait.Div.html",
+                "trait.Shl.html"
+            ]
+        },
+        "borrow": {
+            "files": [
+                "trait.ToOwned.html",
+                "trait.BorrowMut.html",
+                "enum.Cow.html",
+                "index.html",
+                "trait.Borrow.html"
+            ]
+        },
+        "isize": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "task": {
+            "files": [
+                "struct.Waker.html",
+                "trait.Wake.html",
+                "struct.Context.html",
+                "index.html",
+                "enum.Poll.html",
+                "struct.RawWaker.html",
+                "macro.ready!.html",
+                "struct.RawWakerVTable.html",
+                "macro.ready.html"
+            ]
+        },
+        "array": {
+            "files": [
+                "fn.from_fn.html",
+                "struct.IntoIter.html",
+                "index.html",
+                "fn.try_from_fn.html",
+                "fn.from_ref.html",
+                "struct.TryFromSliceError.html",
+                "fn.from_mut.html"
+            ]
+        },
+        "primitive": {
+            "files": [
+                "index.html"
+            ]
+        },
+        "u16": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "str": {
+            "files": [
+                "struct.SplitInclusive.html",
+                "struct.Lines.html",
+                "fn.from_utf8_unchecked_mut.html",
+                "struct.Utf8Chunk.html",
+                "struct.ParseBoolError.html",
+                "struct.MatchIndices.html",
+                "fn.from_boxed_utf8_unchecked.html",
+                "struct.SplitWhitespace.html",
+                "struct.Chars.html",
+                "fn.from_utf8_mut.html",
+                "struct.Utf8Chunks.html",
+                "fn.from_utf8_unchecked.html",
+                "struct.Utf8Error.html",
+                "struct.RSplit.html",
+                "struct.LinesAny.html",
+                "struct.SplitAsciiWhitespace.html",
+                "struct.RSplitTerminator.html",
+                "struct.EscapeUnicode.html",
+                "struct.SplitTerminator.html",
+                "struct.RMatches.html",
+                "struct.RSplitN.html",
+                "index.html",
+                "struct.Split.html",
+                "struct.CharIndices.html",
+                "struct.Matches.html",
+                "trait.FromStr.html",
+                "struct.EncodeUtf16.html",
+                "struct.SplitN.html",
+                "struct.Bytes.html",
+                "fn.from_utf8.html",
+                "struct.EscapeDefault.html",
+                "struct.RMatchIndices.html",
+                "struct.EscapeDebug.html"
+            ],
+            "pattern": {
+                "files": [
+                    "trait.DoubleEndedSearcher.html",
+                    "struct.CharArrayRefSearcher.html",
+                    "struct.CharSliceSearcher.html",
+                    "struct.CharSearcher.html",
+                    "struct.StrSearcher.html",
+                    "enum.SearchStep.html",
+                    "index.html",
+                    "trait.Pattern.html",
+                    "struct.CharPredicateSearcher.html",
+                    "trait.Searcher.html",
+                    "struct.CharArraySearcher.html",
+                    "trait.ReverseSearcher.html"
+                ]
+            }
+        },
+        "process": {
+            "files": [
+                "struct.ChildStderr.html",
+                "struct.ChildStdin.html",
+                "fn.id.html",
+                "struct.CommandEnvs.html",
+                "struct.Child.html",
+                "struct.Output.html",
+                "struct.ChildStdout.html",
+                "struct.Command.html",
+                "struct.ExitCode.html",
+                "index.html",
+                "struct.ExitStatusError.html",
+                "trait.Termination.html",
+                "struct.Stdio.html",
+                "struct.ExitStatus.html",
+                "fn.exit.html",
+                "fn.abort.html",
+                "struct.CommandArgs.html"
+            ]
+        },
+        "std_float": {
+            "files": [
+                "trait.StdFloat.html"
+            ]
+        },
+        "prelude": {
+            "files": [
+                "index.html"
+            ],
+            "rust_2021": {
+                "files": [
+                    "index.html"
+                ]
+            },
+            "rust_2024": {
+                "files": [
+                    "index.html"
+                ]
+            },
+            "v1": {
+                "files": [
+                    "attr.test.html",
+                    "macro.type_ascribe.html",
+                    "attr.derive.html",
+                    "attr.bench.html",
+                    "attr.cfg_eval.html",
+                    "attr.derive_const.html",
+                    "attr.cfg_accessible.html",
+                    "attr.alloc_error_handler.html",
+                    "index.html",
+                    "attr.test_case.html",
+                    "macro.type_ascribe!.html",
+                    "attr.global_allocator.html"
+                ]
+            },
+            "rust_2015": {
+                "files": [
+                    "index.html"
+                ]
+            },
+            "rust_2018": {
+                "files": [
+                    "index.html"
+                ]
+            }
+        },
+        "boxed": {
+            "files": [
+                "struct.ThinBox.html",
+                "struct.Box.html",
+                "index.html"
+            ]
+        },
+        "assert_matches": {
+            "files": [
+                "macro.debug_assert_matches!.html",
+                "macro.debug_assert_matches.html",
+                "index.html",
+                "macro.assert_matches.html",
+                "macro.assert_matches!.html"
+            ]
+        },
+        "fs": {
+            "files": [
+                "fn.remove_dir.html",
+                "fn.create_dir.html",
+                "fn.metadata.html",
+                "fn.read.html",
+                "fn.hard_link.html",
+                "fn.symlink_metadata.html",
+                "fn.read_link.html",
+                "struct.DirBuilder.html",
+                "fn.soft_link.html",
+                "fn.read_to_string.html",
+                "fn.set_permissions.html",
+                "fn.remove_file.html",
+                "fn.create_dir_all.html",
+                "struct.OpenOptions.html",
+                "fn.write.html",
+                "fn.copy.html",
+                "fn.rename.html",
+                "index.html",
+                "fn.canonicalize.html",
+                "struct.FileType.html",
+                "fn.read_dir.html",
+                "struct.Metadata.html",
+                "fn.remove_dir_all.html",
+                "struct.DirEntry.html",
+                "fn.try_exists.html",
+                "struct.File.html",
+                "struct.FileTimes.html",
+                "struct.Permissions.html",
+                "struct.ReadDir.html"
+            ]
+        },
+        "thread": {
+            "files": [
+                "fn.park_timeout.html",
+                "fn.scope.html",
+                "struct.ScopedJoinHandle.html",
+                "struct.AccessError.html",
+                "type.Result.html",
+                "struct.LocalKey.html",
+                "fn.sleep_until.html",
+                "struct.Thread.html",
+                "struct.Builder.html",
+                "fn.current.html",
+                "fn.available_parallelism.html",
+                "struct.JoinHandle.html",
+                "struct.Scope.html",
+                "fn.park.html",
+                "fn.sleep.html",
+                "index.html",
+                "fn.panicking.html",
+                "struct.ThreadId.html",
+                "fn.yield_now.html",
+                "fn.sleep_ms.html",
+                "fn.spawn.html",
+                "fn.park_timeout_ms.html"
+            ],
+            "local": {
+                "files": [
+                    "struct.AccessError.html",
+                    "struct.LocalKey.html"
+                ]
+            },
+            "scoped": {
+                "files": [
+                    "fn.scope.html",
+                    "struct.ScopedJoinHandle.html",
+                    "struct.Scope.html"
+                ]
+            }
+        },
+        "intrinsics": {
+            "files": [
+                "fn.atomic_cxchgweak_release_seqcst.html",
+                "fn.atomic_nand_acquire.html",
+                "fn.unaligned_volatile_load.html",
+                "fn.ptr_offset_from_unsigned.html",
+                "fn.unchecked_rem.html",
+                "fn.unaligned_volatile_store.html",
+                "fn.powf64.html",
+                "fn.atomic_max_acqrel.html",
+                "fn.copysignf64.html",
+                "fn.const_deallocate.html",
+                "fn.sub_with_overflow.html",
+                "fn.transmute.html",
+                "fn.atomic_max_release.html",
+                "fn.atomic_and_seqcst.html",
+                "fn.unlikely.html",
+                "fn.const_allocate.html",
+                "fn.atomic_and_relaxed.html",
+                "fn.assert_zero_valid.html",
+                "fn.fmaf32.html",
+                "fn.prefetch_read_data.html",
+                "fn.copysignf32.html",
+                "fn.atomic_cxchg_release_acquire.html",
+                "fn.caller_location.html",
+                "fn.atomic_or_relaxed.html",
+                "fn.atomic_min_acqrel.html",
+                "fn.rustc_peek.html",
+                "fn.atomic_cxchgweak_release_acquire.html",
+                "fn.atomic_cxchg_acquire_relaxed.html",
+                "fn.atomic_cxchgweak_acquire_acquire.html",
+                "fn.mul_with_overflow.html",
+                "fn.ptr_mask.html",
+                "fn.atomic_fence_seqcst.html",
+                "fn.atomic_cxchg_release_seqcst.html",
+                "fn.nearbyintf64.html",
+                "fn.atomic_store_release.html",
+                "fn.log2f32.html",
+                "fn.maxnumf32.html",
+                "fn.cosf32.html",
+                "fn.frem_fast.html",
+                "fn.atomic_load_seqcst.html",
+                "fn.logf64.html",
+                "fn.needs_drop.html",
+                "fn.pref_align_of.html",
+                "fn.ceilf64.html",
+                "fn.atomic_load_acquire.html",
+                "fn.fsub_fast.html",
+                "fn.offset.html",
+                "fn.discriminant_value.html",
+                "fn.prefetch_write_data.html",
+                "fn.atomic_cxchgweak_acquire_relaxed.html",
+                "fn.roundevenf32.html",
+                "fn.truncf32.html",
+                "fn.roundf64.html",
+                "fn.atomic_singlethreadfence_acquire.html",
+                "fn.wrapping_sub.html",
+                "fn.sinf32.html",
+                "fn.atomic_nand_seqcst.html",
+                "fn.vtable_align.html",
+                "fn.atomic_store_unordered.html",
+                "fn.atomic_nand_acqrel.html",
+                "fn.atomic_and_acqrel.html",
+                "fn.atomic_cxchg_seqcst_seqcst.html",
+                "fn.min_align_of_val.html",
+                "fn.atomic_xor_acqrel.html",
+                "fn.atomic_umax_acqrel.html",
+                "fn.drop_in_place.html",
+                "fn.atomic_umax_seqcst.html",
+                "fn.atomic_nand_relaxed.html",
+                "fn.exp2f32.html",
+                "fn.vtable_size.html",
+                "fn.atomic_singlethreadfence_seqcst.html",
+                "fn.likely.html",
+                "fn.atomic_cxchgweak_release_relaxed.html",
+                "fn.prefetch_read_instruction.html",
+                "fn.forget.html",
+                "fn.powif64.html",
+                "fn.sqrtf64.html",
+                "fn.atomic_fence_release.html",
+                "fn.atomic_max_relaxed.html",
+                "fn.compare_bytes.html",
+                "fn.wrapping_mul.html",
+                "fn.atomic_max_seqcst.html",
+                "fn.atomic_cxchg_relaxed_acquire.html",
+                "fn.atomic_cxchgweak_relaxed_seqcst.html",
+                "fn.atomic_cxchg_seqcst_acquire.html",
+                "fn.atomic_cxchgweak_seqcst_seqcst.html",
+                "fn.rintf32.html",
+                "fn.ptr_guaranteed_cmp.html",
+                "fn.ceilf32.html",
+                "fn.atomic_umax_acquire.html",
+                "fn.prefetch_write_instruction.html",
+                "fn.unchecked_mul.html",
+                "fn.volatile_set_memory.html",
+                "fn.expf64.html",
+                "fn.minnumf32.html",
+                "fn.atomic_umin_relaxed.html",
+                "fn.atomic_cxchg_release_relaxed.html",
+                "fn.atomic_or_acquire.html",
+                "fn.atomic_cxchgweak_seqcst_acquire.html",
+                "fn.volatile_copy_nonoverlapping_memory.html",
+                "fn.rintf64.html",
+                "fn.atomic_xadd_release.html",
+                "fn.copy_nonoverlapping.html",
+                "fn.atomic_xor_acquire.html",
+                "fn.atomic_xsub_seqcst.html",
+                "fn.assert_inhabited.html",
+                "fn.atomic_store_seqcst.html",
+                "fn.unchecked_add.html",
+                "fn.copy.html",
+                "fn.ctpop.html",
+                "fn.ptr_offset_from.html",
+                "fn.atomic_cxchg_acquire_acquire.html",
+                "fn.type_name.html",
+                "fn.assert_mem_uninitialized_valid.html",
+                "fn.atomic_or_seqcst.html",
+                "fn.atomic_cxchgweak_acqrel_acquire.html",
+                "fn.sqrtf32.html",
+                "fn.fdiv_fast.html",
+                "fn.volatile_copy_memory.html",
+                "fn.atomic_fence_acquire.html",
+                "fn.fmul_fast.html",
+                "fn.atomic_xadd_seqcst.html",
+                "fn.atomic_xchg_acquire.html",
+                "fn.nontemporal_store.html",
+                "fn.unchecked_sub.html",
+                "index.html",
+                "fn.type_id.html",
+                "fn.unchecked_shr.html",
+                "fn.atomic_umax_release.html",
+                "fn.raw_eq.html",
+                "fn.atomic_xadd_relaxed.html",
+                "fn.atomic_xadd_acquire.html",
+                "fn.atomic_umin_release.html",
+                "fn.option_payload_ptr.html",
+                "fn.fadd_fast.html",
+                "fn.atomic_cxchg_acquire_seqcst.html",
+                "fn.roundevenf64.html",
+                "fn.floorf32.html",
+                "fn.atomic_xsub_relaxed.html",
+                "fn.atomic_cxchgweak_relaxed_relaxed.html",
+                "fn.atomic_xor_release.html",
+                "fn.saturating_add.html",
+                "fn.powif32.html",
+                "fn.add_with_overflow.html",
+                "fn.atomic_umax_relaxed.html",
+                "fn.atomic_cxchg_relaxed_seqcst.html",
+                "fn.float_to_int_unchecked.html",
+                "fn.atomic_xor_relaxed.html",
+                "fn.atomic_xsub_acqrel.html",
+                "fn.ctlz.html",
+                "fn.size_of_val.html",
+                "fn.atomic_min_relaxed.html",
+                "fn.atomic_cxchg_acqrel_relaxed.html",
+                "fn.exp2f64.html",
+                "fn.atomic_cxchgweak_acquire_seqcst.html",
+                "fn.floorf64.html",
+                "fn.ctlz_nonzero.html",
+                "fn.bitreverse.html",
+                "fn.cttz.html",
+                "fn.roundf32.html",
+                "fn.atomic_min_release.html",
+                "fn.atomic_cxchgweak_relaxed_acquire.html",
+                "fn.atomic_fence_acqrel.html",
+                "fn.const_eval_select.html",
+                "fn.atomic_or_acqrel.html",
+                "fn.atomic_umin_seqcst.html",
+                "fn.atomic_xsub_acquire.html",
+                "fn.atomic_xchg_release.html",
+                "fn.exact_div.html",
+                "fn.minnumf64.html",
+                "fn.atomic_cxchg_acqrel_acquire.html",
+                "fn.atomic_load_relaxed.html",
+                "fn.black_box.html",
+                "fn.maxnumf64.html",
+                "fn.atomic_cxchgweak_acqrel_seqcst.html",
+                "fn.min_align_of.html",
+                "fn.write_bytes.html",
+                "fn.atomic_cxchg_seqcst_relaxed.html",
+                "fn.atomic_cxchgweak_acqrel_relaxed.html",
+                "fn.cttz_nonzero.html",
+                "fn.saturating_sub.html",
+                "fn.expf32.html",
+                "fn.write_via_move.html",
+                "fn.log10f32.html",
+                "fn.atomic_and_acquire.html",
+                "fn.fabsf64.html",
+                "fn.wrapping_add.html",
+                "fn.arith_offset.html",
+                "fn.atomic_cxchgweak_seqcst_relaxed.html",
+                "fn.size_of.html",
+                "fn.logf32.html",
+                "fn.atomic_and_release.html",
+                "fn.atomic_min_acquire.html",
+                "fn.rotate_right.html",
+                "fn.atomic_or_release.html",
+                "fn.bswap.html",
+                "fn.log2f64.html",
+                "fn.read_via_copy.html",
+                "fn.atomic_load_unordered.html",
+                "fn.atomic_xadd_acqrel.html",
+                "fn.volatile_load.html",
+                "fn.try.html",
+                "fn.atomic_xor_seqcst.html",
+                "fn.assume.html",
+                "fn.truncf64.html",
+                "fn.log10f64.html",
+                "fn.atomic_cxchg_relaxed_relaxed.html",
+                "fn.atomic_xchg_acqrel.html",
+                "fn.cosf64.html",
+                "fn.atomic_umin_acqrel.html",
+                "fn.unreachable.html",
+                "fn.powf32.html",
+                "fn.atomic_max_acquire.html",
+                "fn.atomic_xchg_relaxed.html",
+                "fn.atomic_store_relaxed.html",
+                "fn.atomic_singlethreadfence_release.html",
+                "fn.atomic_xchg_seqcst.html",
+                "fn.breakpoint.html",
+                "fn.transmute_unchecked.html",
+                "fn.atomic_cxchg_acqrel_seqcst.html",
+                "fn.atomic_min_seqcst.html",
+                "fn.unchecked_shl.html",
+                "fn.variant_count.html",
+                "fn.fabsf32.html",
+                "fn.fmaf64.html",
+                "fn.atomic_singlethreadfence_acqrel.html",
+                "fn.abort.html",
+                "fn.sinf64.html",
+                "fn.unchecked_div.html",
+                "fn.atomic_nand_release.html",
+                "fn.rotate_left.html",
+                "fn.nearbyintf32.html",
+                "fn.volatile_store.html",
+                "fn.atomic_umin_acquire.html",
+                "fn.atomic_xsub_release.html"
+            ],
+            "mir": {
+                "files": [
+                    "fn.Call.html",
+                    "fn.Deinit.html",
+                    "fn.Len.html",
+                    "fn.StaticMut.html",
+                    "fn.StorageLive.html",
+                    "fn.Offset.html",
+                    "fn.Goto.html",
+                    "fn.Static.html",
+                    "macro.mir!.html",
+                    "fn.Variant.html",
+                    "fn.Checked.html",
+                    "macro.place.html",
+                    "fn.Discriminant.html",
+                    "struct.BasicBlock.html",
+                    "macro.mir.html",
+                    "index.html",
+                    "fn.CastTransmute.html",
+                    "fn.StorageDead.html",
+                    "fn.Field.html",
+                    "fn.CopyForDeref.html",
+                    "macro.place!.html",
+                    "fn.SetDiscriminant.html",
+                    "fn.Return.html",
+                    "fn.Drop.html",
+                    "fn.Retag.html",
+                    "fn.Unreachable.html",
+                    "fn.Move.html"
+                ]
+            }
+        },
+        "u64": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "async_iter": {
+            "files": [
+                "trait.AsyncIterator.html",
+                "struct.FromIter.html",
+                "index.html",
+                "fn.from_iter.html"
+            ]
+        },
+        "f32": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX_EXP.html",
+                "constant.RADIX.html",
+                "constant.MAX.html",
+                "constant.INFINITY.html",
+                "constant.NAN.html",
+                "index.html",
+                "constant.EPSILON.html",
+                "constant.NEG_INFINITY.html",
+                "constant.MAX_10_EXP.html",
+                "constant.MIN_EXP.html",
+                "constant.MANTISSA_DIGITS.html",
+                "constant.MIN_POSITIVE.html",
+                "constant.DIGITS.html",
+                "constant.MIN_10_EXP.html"
+            ],
+            "consts": {
+                "files": [
+                    "constant.PHI.html",
+                    "constant.FRAC_PI_2.html",
+                    "constant.PI.html",
+                    "constant.FRAC_PI_6.html",
+                    "constant.LOG2_10.html",
+                    "constant.FRAC_2_SQRT_PI.html",
+                    "constant.TAU.html",
+                    "constant.FRAC_1_SQRT_2.html",
+                    "constant.FRAC_1_SQRT_3.html",
+                    "index.html",
+                    "constant.LN_10.html",
+                    "constant.EGAMMA.html",
+                    "constant.E.html",
+                    "constant.FRAC_1_PI.html",
+                    "constant.LOG10_2.html",
+                    "constant.FRAC_PI_4.html",
+                    "constant.FRAC_PI_3.html",
+                    "constant.SQRT_3.html",
+                    "constant.FRAC_2_PI.html",
+                    "constant.LOG10_E.html",
+                    "constant.SQRT_2.html",
+                    "constant.LOG2_E.html",
+                    "constant.FRAC_1_SQRT_PI.html",
+                    "constant.FRAC_PI_8.html",
+                    "constant.LN_2.html"
+                ]
+            }
+        },
+        "rc": {
+            "files": [
+                "struct.Rc.html",
+                "struct.Weak.html",
+                "index.html",
+                "struct.UniqueRc.html"
+            ]
+        },
+        "default": {
+            "files": [
+                "derive.Default.html",
+                "index.html",
+                "trait.Default.html"
+            ]
+        },
+        "string": {
+            "files": [
+                "type.ParseError.html",
+                "index.html",
+                "struct.String.html",
+                "struct.Drain.html",
+                "struct.FromUtf8Error.html",
+                "trait.ToString.html",
+                "struct.FromUtf16Error.html"
+            ]
+        },
+        "future": {
+            "files": [
+                "macro.join!.html",
+                "macro.join.html",
+                "fn.ready.html",
+                "struct.Pending.html",
+                "fn.poll_fn.html",
+                "index.html",
+                "struct.Ready.html",
+                "trait.IntoFuture.html",
+                "trait.Future.html",
+                "struct.PollFn.html",
+                "fn.pending.html"
+            ]
+        },
+        "env": {
+            "files": [
+                "struct.Vars.html",
+                "fn.var.html",
+                "fn.set_var.html",
+                "struct.Args.html",
+                "fn.vars_os.html",
+                "struct.VarsOs.html",
+                "fn.join_paths.html",
+                "fn.current_exe.html",
+                "struct.ArgsOs.html",
+                "fn.temp_dir.html",
+                "fn.home_dir.html",
+                "fn.var_os.html",
+                "index.html",
+                "fn.remove_var.html",
+                "fn.args.html",
+                "fn.set_current_dir.html",
+                "fn.vars.html",
+                "fn.current_dir.html",
+                "fn.args_os.html",
+                "struct.SplitPaths.html",
+                "struct.JoinPathsError.html",
+                "fn.split_paths.html",
+                "enum.VarError.html"
+            ],
+            "consts": {
+                "files": [
+                    "constant.EXE_SUFFIX.html",
+                    "constant.DLL_EXTENSION.html",
+                    "constant.OS.html",
+                    "constant.ARCH.html",
+                    "index.html",
+                    "constant.DLL_SUFFIX.html",
+                    "constant.FAMILY.html",
+                    "constant.DLL_PREFIX.html",
+                    "constant.EXE_EXTENSION.html"
+                ]
+            }
+        },
+        "collections": {
+            "files": [
+                "struct.VecDeque.html",
+                "enum.TryReserveErrorKind.html",
+                "struct.HashSet.html",
+                "struct.HashMap.html",
+                "struct.BTreeMap.html",
+                "struct.BinaryHeap.html",
+                "struct.BTreeSet.html",
+                "index.html",
+                "struct.TryReserveError.html",
+                "struct.LinkedList.html"
+            ],
+            "hash": {
+                "map": {
+                    "files": [
+                        "enum.RawEntryMut.html",
+                        "struct.ValuesMut.html",
+                        "struct.RandomState.html",
+                        "struct.Iter.html",
+                        "struct.RawEntryBuilderMut.html",
+                        "struct.Keys.html",
+                        "struct.DefaultHasher.html",
+                        "struct.HashMap.html",
+                        "struct.VacantEntry.html",
+                        "struct.IntoValues.html",
+                        "struct.RawOccupiedEntryMut.html",
+                        "enum.Entry.html",
+                        "struct.RawVacantEntryMut.html",
+                        "struct.RawEntryBuilder.html",
+                        "struct.OccupiedError.html",
+                        "struct.Values.html",
+                        "struct.IntoIter.html",
+                        "struct.ExtractIf.html",
+                        "struct.Drain.html",
+                        "struct.IntoKeys.html",
+                        "struct.IterMut.html",
+                        "struct.OccupiedEntry.html"
+                    ]
+                },
+                "set": {
+                    "files": [
+                        "struct.SymmetricDifference.html",
+                        "struct.Iter.html",
+                        "struct.HashSet.html",
+                        "struct.Difference.html",
+                        "struct.Union.html",
+                        "struct.IntoIter.html",
+                        "struct.Intersection.html",
+                        "struct.ExtractIf.html",
+                        "struct.Drain.html"
+                    ]
+                }
+            },
+            "btree_map": {
+                "files": [
+                    "struct.Range.html",
+                    "struct.ValuesMut.html",
+                    "struct.Cursor.html",
+                    "struct.Iter.html",
+                    "struct.Keys.html",
+                    "struct.RangeMut.html",
+                    "struct.VacantEntry.html",
+                    "struct.IntoValues.html",
+                    "enum.Entry.html",
+                    "struct.BTreeMap.html",
+                    "struct.OccupiedError.html",
+                    "struct.Values.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "struct.CursorMut.html",
+                    "struct.ExtractIf.html",
+                    "struct.IntoKeys.html",
+                    "struct.IterMut.html",
+                    "struct.OccupiedEntry.html"
+                ]
+            },
+            "hash_set": {
+                "files": [
+                    "struct.SymmetricDifference.html",
+                    "struct.Iter.html",
+                    "struct.HashSet.html",
+                    "struct.Difference.html",
+                    "struct.Union.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "struct.Intersection.html",
+                    "struct.ExtractIf.html",
+                    "struct.Drain.html"
+                ]
+            },
+            "btree_set": {
+                "files": [
+                    "struct.Range.html",
+                    "struct.SymmetricDifference.html",
+                    "struct.Iter.html",
+                    "struct.Difference.html",
+                    "struct.Union.html",
+                    "struct.BTreeSet.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "struct.Intersection.html",
+                    "struct.ExtractIf.html"
+                ]
+            },
+            "linked_list": {
+                "files": [
+                    "struct.Cursor.html",
+                    "struct.Iter.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "struct.CursorMut.html",
+                    "struct.ExtractIf.html",
+                    "struct.LinkedList.html",
+                    "struct.IterMut.html"
+                ]
+            },
+            "binary_heap": {
+                "files": [
+                    "struct.Iter.html",
+                    "struct.IntoIterSorted.html",
+                    "struct.PeekMut.html",
+                    "struct.BinaryHeap.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "struct.DrainSorted.html",
+                    "struct.Drain.html"
+                ]
+            },
+            "hash_map": {
+                "files": [
+                    "enum.RawEntryMut.html",
+                    "struct.ValuesMut.html",
+                    "struct.RandomState.html",
+                    "struct.Iter.html",
+                    "struct.RawEntryBuilderMut.html",
+                    "struct.Keys.html",
+                    "struct.DefaultHasher.html",
+                    "struct.HashMap.html",
+                    "struct.VacantEntry.html",
+                    "struct.IntoValues.html",
+                    "struct.RawOccupiedEntryMut.html",
+                    "enum.Entry.html",
+                    "struct.RawVacantEntryMut.html",
+                    "struct.RawEntryBuilder.html",
+                    "struct.OccupiedError.html",
+                    "struct.Values.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "struct.ExtractIf.html",
+                    "struct.Drain.html",
+                    "struct.IntoKeys.html",
+                    "struct.IterMut.html",
+                    "struct.OccupiedEntry.html"
+                ]
+            },
+            "vec_deque": {
+                "files": [
+                    "struct.VecDeque.html",
+                    "struct.Iter.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "struct.Drain.html",
+                    "struct.IterMut.html"
+                ]
+            }
+        },
+        "os": {
+            "files": [
+                "index.html"
+            ],
+            "linux": {
+                "files": [
+                    "index.html"
+                ],
+                "raw": {
+                    "files": [
+                        "type.blkcnt_t.html",
+                        "type.off_t.html",
+                        "type.ino_t.html",
+                        "type.blksize_t.html",
+                        "type.time_t.html",
+                        "type.dev_t.html",
+                        "type.nlink_t.html",
+                        "type.mode_t.html",
+                        "struct.stat.html",
+                        "type.pthread_t.html",
+                        "index.html"
+                    ],
+                    "arch": {
+                        "files": [
+                            "type.blkcnt_t.html",
+                            "type.off_t.html",
+                            "type.ino_t.html",
+                            "type.blksize_t.html",
+                            "type.time_t.html",
+                            "type.nlink_t.html",
+                            "struct.stat.html"
+                        ]
+                    }
+                },
+                "process": {
+                    "files": [
+                        "struct.PidFd.html",
+                        "index.html",
+                        "trait.ChildExt.html",
+                        "trait.CommandExt.html"
+                    ]
+                },
+                "fs": {
+                    "files": [
+                        "index.html",
+                        "trait.MetadataExt.html"
+                    ]
+                },
+                "net": {
+                    "files": [
+                        "trait.SocketAddrExt.html",
+                        "index.html",
+                        "trait.TcpStreamExt.html"
+                    ]
+                }
+            },
+            "raw": {
+                "files": [
+                    "type.c_void.html",
+                    "type.c_uint.html",
+                    "type.c_short.html",
+                    "type.c_int.html",
+                    "type.c_ushort.html",
+                    "type.c_uchar.html",
+                    "type.c_ulonglong.html",
+                    "type.c_longlong.html",
+                    "type.c_double.html",
+                    "index.html",
+                    "type.c_char.html",
+                    "type.c_ulong.html",
+                    "type.c_float.html",
+                    "type.c_long.html",
+                    "type.c_schar.html"
+                ]
+            },
+            "wasi": {
+                "files": [
+                    "index.html"
+                ],
+                "prelude": {
+                    "files": [
+                        "index.html"
+                    ]
+                },
+                "fs": {
+                    "files": [
+                        "fn.link.html",
+                        "trait.FileTypeExt.html",
+                        "fn.symlink.html",
+                        "trait.DirEntryExt.html",
+                        "fn.rename.html",
+                        "index.html",
+                        "trait.OpenOptionsExt.html",
+                        "fn.symlink_path.html",
+                        "trait.FileExt.html",
+                        "trait.MetadataExt.html"
+                    ]
+                },
+                "io": {
+                    "files": [
+                        "index.html"
+                    ]
+                },
+                "net": {
+                    "files": [
+                        "trait.TcpListenerExt.html",
+                        "index.html"
+                    ]
+                },
+                "ffi": {
+                    "files": [
+                        "trait.OsStrExt.html",
+                        "trait.OsStringExt.html",
+                        "index.html"
+                    ],
+                    "os_str": {
+                        "files": [
+                            "trait.OsStrExt.html",
+                            "trait.OsStringExt.html"
+                        ]
+                    }
+                }
+            },
+            "unix": {
+                "files": [
+                    "index.html"
+                ],
+                "raw": {
+                    "files": [
+                        "type.blkcnt_t.html",
+                        "type.off_t.html",
+                        "type.ino_t.html",
+                        "type.blksize_t.html",
+                        "type.time_t.html",
+                        "type.gid_t.html",
+                        "type.dev_t.html",
+                        "type.nlink_t.html",
+                        "type.mode_t.html",
+                        "type.pthread_t.html",
+                        "index.html",
+                        "type.uid_t.html",
+                        "type.pid_t.html"
+                    ]
+                },
+                "process": {
+                    "files": [
+                        "trait.ExitStatusExt.html",
+                        "index.html",
+                        "fn.parent_id.html",
+                        "trait.CommandExt.html"
+                    ]
+                },
+                "prelude": {
+                    "files": [
+                        "index.html"
+                    ]
+                },
+                "fs": {
+                    "files": [
+                        "trait.FileTypeExt.html",
+                        "fn.symlink.html",
+                        "trait.DirEntryExt2.html",
+                        "fn.fchown.html",
+                        "trait.DirEntryExt.html",
+                        "fn.lchown.html",
+                        "trait.PermissionsExt.html",
+                        "index.html",
+                        "trait.OpenOptionsExt.html",
+                        "trait.FileExt.html",
+                        "trait.MetadataExt.html",
+                        "trait.DirBuilderExt.html",
+                        "fn.chroot.html",
+                        "fn.chown.html"
+                    ]
+                },
+                "ucred": {
+                    "files": [
+                        "index.html",
+                        "struct.UCred.html"
+                    ],
+                    "impl_linux": {
+                        "files": [
+                            "fn.peer_cred.html",
+                            "index.html"
+                        ]
+                    }
+                },
+                "thread": {
+                    "files": [
+                        "type.RawPthread.html",
+                        "trait.JoinHandleExt.html",
+                        "index.html"
+                    ]
+                },
+                "io": {
+                    "files": [
+                        "index.html"
+                    ]
+                },
+                "net": {
+                    "files": [
+                        "struct.Incoming.html",
+                        "enum.AncillaryError.html",
+                        "struct.SocketCred.html",
+                        "struct.UnixDatagram.html",
+                        "enum.AncillaryData.html",
+                        "struct.SocketAddr.html",
+                        "struct.ScmCredentials.html",
+                        "index.html",
+                        "struct.Messages.html",
+                        "struct.ScmRights.html",
+                        "struct.UnixListener.html",
+                        "struct.SocketAncillary.html",
+                        "struct.UnixStream.html"
+                    ],
+                    "datagram": {
+                        "files": [
+                            "struct.UnixDatagram.html"
+                        ]
+                    },
+                    "listener": {
+                        "files": [
+                            "struct.Incoming.html",
+                            "struct.UnixListener.html"
+                        ]
+                    },
+                    "stream": {
+                        "files": [
+                            "struct.UnixStream.html"
+                        ]
+                    },
+                    "addr": {
+                        "files": [
+                            "struct.SocketAddr.html"
+                        ]
+                    },
+                    "ancillary": {
+                        "files": [
+                            "enum.AncillaryError.html",
+                            "struct.SocketCred.html",
+                            "enum.AncillaryData.html",
+                            "struct.ScmCredentials.html",
+                            "struct.Messages.html",
+                            "struct.ScmRights.html",
+                            "struct.SocketAncillary.html"
+                        ]
+                    }
+                },
+                "ffi": {
+                    "files": [
+                        "trait.OsStrExt.html",
+                        "trait.OsStringExt.html",
+                        "index.html"
+                    ],
+                    "os_str": {
+                        "files": [
+                            "trait.OsStrExt.html",
+                            "trait.OsStringExt.html"
+                        ]
+                    }
+                }
+            },
+            "fd": {
+                "files": [
+                    "struct.OwnedFd.html",
+                    "trait.AsRawFd.html",
+                    "trait.FromRawFd.html",
+                    "type.RawFd.html",
+                    "index.html",
+                    "trait.IntoRawFd.html",
+                    "struct.BorrowedFd.html",
+                    "trait.AsFd.html"
+                ],
+                "raw": {
+                    "files": [
+                        "trait.AsRawFd.html",
+                        "trait.FromRawFd.html",
+                        "type.RawFd.html",
+                        "trait.IntoRawFd.html"
+                    ]
+                },
+                "owned": {
+                    "files": [
+                        "struct.OwnedFd.html",
+                        "struct.BorrowedFd.html",
+                        "trait.AsFd.html"
+                    ]
+                }
+            },
+            "windows": {
+                "files": [
+                    "index.html"
+                ],
+                "raw": {
+                    "files": [
+                        "index.html",
+                        "type.HANDLE.html",
+                        "type.SOCKET.html"
+                    ]
+                },
+                "process": {
+                    "files": [
+                        "trait.ExitStatusExt.html",
+                        "index.html",
+                        "trait.ChildExt.html",
+                        "trait.ExitCodeExt.html",
+                        "trait.CommandExt.html"
+                    ]
+                },
+                "prelude": {
+                    "files": [
+                        "index.html"
+                    ]
+                },
+                "fs": {
+                    "files": [
+                        "trait.FileTypeExt.html",
+                        "index.html",
+                        "trait.OpenOptionsExt.html",
+                        "trait.FileExt.html",
+                        "trait.MetadataExt.html",
+                        "trait.FileTimesExt.html",
+                        "fn.symlink_file.html",
+                        "fn.symlink_dir.html"
+                    ]
+                },
+                "thread": {
+                    "files": [
+                        "index.html"
+                    ]
+                },
+                "io": {
+                    "files": [
+                        "trait.AsRawSocket.html",
+                        "trait.AsHandle.html",
+                        "struct.OwnedSocket.html",
+                        "struct.InvalidHandleError.html",
+                        "struct.HandleOrNull.html",
+                        "trait.FromRawSocket.html",
+                        "trait.AsSocket.html",
+                        "struct.BorrowedHandle.html",
+                        "struct.HandleOrInvalid.html",
+                        "trait.IntoRawSocket.html",
+                        "type.RawHandle.html",
+                        "index.html",
+                        "struct.OwnedHandle.html",
+                        "struct.BorrowedSocket.html",
+                        "struct.NullHandleError.html",
+                        "type.RawSocket.html",
+                        "trait.FromRawHandle.html",
+                        "trait.AsRawHandle.html",
+                        "trait.IntoRawHandle.html"
+                    ],
+                    "socket": {
+                        "files": [
+                            "struct.OwnedSocket.html",
+                            "trait.AsSocket.html",
+                            "struct.BorrowedSocket.html"
+                        ]
+                    },
+                    "handle": {
+                        "files": [
+                            "trait.AsHandle.html",
+                            "struct.InvalidHandleError.html",
+                            "struct.HandleOrNull.html",
+                            "struct.BorrowedHandle.html",
+                            "struct.HandleOrInvalid.html",
+                            "struct.OwnedHandle.html",
+                            "struct.NullHandleError.html"
+                        ]
+                    },
+                    "raw": {
+                        "files": [
+                            "trait.AsRawSocket.html",
+                            "trait.FromRawSocket.html",
+                            "trait.IntoRawSocket.html",
+                            "type.RawHandle.html",
+                            "type.RawSocket.html",
+                            "trait.FromRawHandle.html",
+                            "trait.AsRawHandle.html",
+                            "trait.IntoRawHandle.html"
+                        ]
+                    }
+                },
+                "ffi": {
+                    "files": [
+                        "trait.OsStrExt.html",
+                        "trait.OsStringExt.html",
+                        "struct.EncodeWide.html",
+                        "index.html"
+                    ]
+                }
+            },
+            "net": {
+                "linux_ext": {
+                    "addr": {
+                        "files": [
+                            "trait.SocketAddrExt.html"
+                        ]
+                    },
+                    "tcp": {
+                        "files": [
+                            "trait.TcpStreamExt.html"
+                        ]
+                    }
+                }
+            }
+        },
+        "slice": {
+            "files": [
+                "struct.ChunksExactMut.html",
+                "struct.SplitInclusive.html",
+                "struct.Iter.html",
+                "struct.SplitInclusiveMut.html",
+                "fn.from_raw_parts.html",
+                "struct.ArrayWindows.html",
+                "struct.RSplit.html",
+                "struct.Windows.html",
+                "struct.ArrayChunksMut.html",
+                "struct.EscapeAscii.html",
+                "struct.RChunksExact.html",
+                "struct.ChunksMut.html",
+                "struct.RChunksMut.html",
+                "struct.GroupByMut.html",
+                "trait.SliceIndex.html",
+                "struct.RSplitN.html",
+                "struct.SplitNMut.html",
+                "struct.RSplitNMut.html",
+                "index.html",
+                "struct.Chunks.html",
+                "struct.SplitMut.html",
+                "struct.RChunks.html",
+                "struct.Split.html",
+                "trait.Join.html",
+                "fn.from_mut_ptr_range.html",
+                "struct.RChunksExactMut.html",
+                "fn.from_ptr_range.html",
+                "struct.ArrayChunks.html",
+                "trait.Concat.html",
+                "fn.from_ref.html",
+                "struct.SplitN.html",
+                "fn.from_mut.html",
+                "fn.from_raw_parts_mut.html",
+                "struct.RSplitMut.html",
+                "struct.GroupBy.html",
+                "struct.ChunksExact.html",
+                "struct.IterMut.html",
+                "fn.range.html"
+            ]
+        },
+        "alloc": {
+            "files": [
+                "trait.GlobalAlloc.html",
+                "struct.System.html",
+                "type.LayoutErr.html",
+                "fn.alloc.html",
+                "fn.alloc_zeroed.html",
+                "fn.dealloc.html",
+                "fn.take_alloc_error_hook.html",
+                "fn.realloc.html",
+                "struct.Layout.html",
+                "index.html",
+                "trait.Allocator.html",
+                "struct.LayoutError.html",
+                "struct.Global.html",
+                "struct.AllocError.html",
+                "fn.set_alloc_error_hook.html",
+                "fn.handle_alloc_error.html"
+            ]
+        },
+        "pin": {
+            "files": [
+                "macro.pin!.html",
+                "macro.pin.html",
+                "struct.Pin.html",
+                "index.html"
+            ]
+        },
+        "time": {
+            "files": [
+                "struct.Instant.html",
+                "constant.UNIX_EPOCH.html",
+                "index.html",
+                "struct.TryFromFloatSecsError.html",
+                "struct.SystemTimeError.html",
+                "struct.Duration.html",
+                "struct.SystemTime.html"
+            ]
+        },
+        "backtrace": {
+            "files": [
+                "struct.Backtrace.html",
+                "enum.BacktraceStatus.html",
+                "index.html",
+                "struct.BacktraceFrame.html"
+            ]
+        },
+        "ptr": {
+            "files": [
+                "fn.hash.html",
+                "fn.metadata.html",
+                "macro.addr_of.html",
+                "fn.read.html",
+                "fn.replace.html",
+                "fn.read_volatile.html",
+                "fn.from_raw_parts.html",
+                "fn.slice_from_raw_parts.html",
+                "fn.null.html",
+                "struct.Alignment.html",
+                "fn.drop_in_place.html",
+                "macro.addr_of_mut.html",
+                "fn.write_volatile.html",
+                "fn.addr_eq.html",
+                "macro.addr_of!.html",
+                "fn.write.html",
+                "fn.copy_nonoverlapping.html",
+                "fn.slice_from_raw_parts_mut.html",
+                "fn.from_exposed_addr.html",
+                "fn.copy.html",
+                "index.html",
+                "fn.swap_nonoverlapping.html",
+                "fn.read_unaligned.html",
+                "fn.from_exposed_addr_mut.html",
+                "fn.from_ref.html",
+                "fn.from_mut.html",
+                "fn.from_raw_parts_mut.html",
+                "fn.write_unaligned.html",
+                "fn.write_bytes.html",
+                "fn.swap.html",
+                "fn.invalid.html",
+                "trait.Pointee.html",
+                "fn.eq.html",
+                "fn.invalid_mut.html",
+                "fn.null_mut.html",
+                "macro.addr_of_mut!.html",
+                "struct.NonNull.html",
+                "struct.DynMetadata.html"
+            ]
+        },
+        "i16": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "hint": {
+            "files": [
+                "fn.spin_loop.html",
+                "index.html",
+                "fn.must_use.html",
+                "fn.unreachable_unchecked.html",
+                "fn.black_box.html"
+            ]
+        },
+        "error": {
+            "files": [
+                "struct.Report.html",
+                "index.html",
+                "fn.request_value.html",
+                "trait.Error.html",
+                "fn.request_ref.html",
+                "struct.Request.html"
+            ]
+        },
+        "io": {
+            "files": [
+                "struct.IoSliceMut.html",
+                "struct.BorrowedBuf.html",
+                "struct.Stdin.html",
+                "trait.BufRead.html",
+                "enum.SeekFrom.html",
+                "struct.IntoInnerError.html",
+                "struct.Lines.html",
+                "fn.empty.html",
+                "struct.LineWriter.html",
+                "struct.Cursor.html",
+                "type.RawOsError.html",
+                "fn.stderr.html",
+                "type.Result.html",
+                "struct.Error.html",
+                "enum.ErrorKind.html",
+                "fn.read_to_string.html",
+                "struct.BufWriter.html",
+                "struct.BorrowedCursor.html",
+                "struct.StderrLock.html",
+                "struct.Chain.html",
+                "struct.Repeat.html",
+                "trait.Write.html",
+                "struct.StdoutLock.html",
+                "fn.sink.html",
+                "fn.copy.html",
+                "struct.Empty.html",
+                "struct.BufReader.html",
+                "trait.Seek.html",
+                "fn.stdin.html",
+                "struct.Stderr.html",
+                "index.html",
+                "struct.Stdout.html",
+                "struct.IoSlice.html",
+                "struct.Split.html",
+                "fn.stdout.html",
+                "trait.IsTerminal.html",
+                "trait.Read.html",
+                "struct.Sink.html",
+                "struct.Take.html",
+                "struct.WriterPanicked.html",
+                "fn.repeat.html",
+                "struct.Bytes.html",
+                "struct.StdinLock.html"
+            ],
+            "stdio": {
+                "files": [
+                    "struct.Stdin.html",
+                    "fn.stderr.html",
+                    "struct.StderrLock.html",
+                    "struct.StdoutLock.html",
+                    "fn.stdin.html",
+                    "struct.Stderr.html",
+                    "struct.Stdout.html",
+                    "fn.stdout.html",
+                    "trait.IsTerminal.html",
+                    "struct.StdinLock.html"
+                ]
+            },
+            "buffered": {
+                "files": [
+                    "struct.IntoInnerError.html"
+                ],
+                "bufwriter": {
+                    "files": [
+                        "struct.BufWriter.html",
+                        "struct.WriterPanicked.html"
+                    ]
+                },
+                "bufreader": {
+                    "files": [
+                        "struct.BufReader.html"
+                    ]
+                },
+                "linewriter": {
+                    "files": [
+                        "struct.LineWriter.html"
+                    ]
+                }
+            },
+            "copy": {
+                "files": [
+                    "fn.copy.html"
+                ]
+            },
+            "prelude": {
+                "files": [
+                    "index.html"
+                ]
+            },
+            "util": {
+                "files": [
+                    "fn.empty.html",
+                    "struct.Repeat.html",
+                    "fn.sink.html",
+                    "struct.Empty.html",
+                    "struct.Sink.html",
+                    "fn.repeat.html"
+                ]
+            },
+            "cursor": {
+                "files": [
+                    "struct.Cursor.html"
+                ]
+            },
+            "error": {
+                "files": [
+                    "type.RawOsError.html",
+                    "type.Result.html",
+                    "struct.Error.html",
+                    "enum.ErrorKind.html"
+                ]
+            }
+        },
+        "iter": {
+            "files": [
+                "fn.from_coroutine.html",
+                "fn.from_fn.html",
+                "fn.once.html",
+                "fn.empty.html",
+                "struct.Copied.html",
+                "trait.TrustedStep.html",
+                "struct.SkipWhile.html",
+                "trait.Step.html",
+                "trait.Sum.html",
+                "fn.once_with.html",
+                "struct.Skip.html",
+                "struct.TakeWhile.html",
+                "trait.Iterator.html",
+                "struct.Chain.html",
+                "struct.FlatMap.html",
+                "struct.Zip.html",
+                "struct.Repeat.html",
+                "struct.Map.html",
+                "trait.DoubleEndedIterator.html",
+                "struct.Filter.html",
+                "struct.OnceWith.html",
+                "struct.Intersperse.html",
+                "trait.FromIterator.html",
+                "trait.Extend.html",
+                "struct.Rev.html",
+                "struct.Empty.html",
+                "index.html",
+                "struct.Enumerate.html",
+                "struct.Scan.html",
+                "trait.IntoIterator.html",
+                "struct.MapWindows.html",
+                "struct.Successors.html",
+                "struct.Peekable.html",
+                "struct.Once.html",
+                "struct.FromFn.html",
+                "struct.Inspect.html",
+                "struct.Flatten.html",
+                "struct.ArrayChunks.html",
+                "struct.Cycle.html",
+                "trait.ExactSizeIterator.html",
+                "struct.ByRefSized.html",
+                "struct.RepeatWith.html",
+                "struct.Take.html",
+                "fn.repeat.html",
+                "trait.Product.html",
+                "fn.successors.html",
+                "trait.TrustedLen.html",
+                "struct.Fuse.html",
+                "fn.repeat_with.html",
+                "struct.IntersperseWith.html",
+                "struct.Cloned.html",
+                "struct.FilterMap.html",
+                "fn.zip.html",
+                "trait.FusedIterator.html",
+                "struct.MapWhile.html",
+                "struct.StepBy.html"
+            ]
+        },
+        "sys_common": {
+            "wtf8": {
+                "files": [
+                    "struct.EncodeWide.html"
+                ]
+            },
+            "process": {
+                "files": [
+                    "struct.CommandEnvs.html"
+                ]
+            }
+        },
+        "net": {
+            "files": [
+                "struct.Incoming.html",
+                "struct.SocketAddrV4.html",
+                "struct.Ipv6Addr.html",
+                "enum.Shutdown.html",
+                "struct.AddrParseError.html",
+                "struct.TcpListener.html",
+                "struct.Ipv4Addr.html",
+                "enum.SocketAddr.html",
+                "index.html",
+                "struct.IntoIncoming.html",
+                "trait.ToSocketAddrs.html",
+                "enum.IpAddr.html",
+                "enum.Ipv6MulticastScope.html",
+                "struct.TcpStream.html",
+                "struct.UdpSocket.html",
+                "struct.SocketAddrV6.html"
+            ],
+            "socket_addr": {
+                "files": [
+                    "struct.SocketAddrV4.html",
+                    "enum.SocketAddr.html",
+                    "trait.ToSocketAddrs.html",
+                    "struct.SocketAddrV6.html"
+                ]
+            },
+            "udp": {
+                "files": [
+                    "struct.UdpSocket.html"
+                ]
+            },
+            "ip_addr": {
+                "files": [
+                    "struct.Ipv6Addr.html",
+                    "struct.Ipv4Addr.html",
+                    "enum.IpAddr.html",
+                    "enum.Ipv6MulticastScope.html"
+                ]
+            },
+            "tcp": {
+                "files": [
+                    "struct.Incoming.html",
+                    "struct.TcpListener.html",
+                    "struct.IntoIncoming.html",
+                    "struct.TcpStream.html"
+                ]
+            }
+        },
+        "f64": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX_EXP.html",
+                "constant.RADIX.html",
+                "constant.MAX.html",
+                "constant.INFINITY.html",
+                "constant.NAN.html",
+                "index.html",
+                "constant.EPSILON.html",
+                "constant.NEG_INFINITY.html",
+                "constant.MAX_10_EXP.html",
+                "constant.MIN_EXP.html",
+                "constant.MANTISSA_DIGITS.html",
+                "constant.MIN_POSITIVE.html",
+                "constant.DIGITS.html",
+                "constant.MIN_10_EXP.html"
+            ],
+            "consts": {
+                "files": [
+                    "constant.PHI.html",
+                    "constant.FRAC_PI_2.html",
+                    "constant.PI.html",
+                    "constant.FRAC_PI_6.html",
+                    "constant.LOG2_10.html",
+                    "constant.FRAC_2_SQRT_PI.html",
+                    "constant.TAU.html",
+                    "constant.FRAC_1_SQRT_2.html",
+                    "constant.FRAC_1_SQRT_3.html",
+                    "index.html",
+                    "constant.LN_10.html",
+                    "constant.EGAMMA.html",
+                    "constant.E.html",
+                    "constant.FRAC_1_PI.html",
+                    "constant.LOG10_2.html",
+                    "constant.FRAC_PI_4.html",
+                    "constant.FRAC_PI_3.html",
+                    "constant.SQRT_3.html",
+                    "constant.FRAC_2_PI.html",
+                    "constant.LOG10_E.html",
+                    "constant.SQRT_2.html",
+                    "constant.LOG2_E.html",
+                    "constant.FRAC_1_SQRT_PI.html",
+                    "constant.FRAC_PI_8.html",
+                    "constant.LN_2.html"
+                ]
+            }
+        },
+        "cmp": {
+            "files": [
+                "struct.Reverse.html",
+                "fn.min_by.html",
+                "fn.max.html",
+                "trait.PartialEq.html",
+                "derive.PartialEq.html",
+                "derive.Ord.html",
+                "derive.PartialOrd.html",
+                "fn.minmax_by_key.html",
+                "derive.Eq.html",
+                "enum.Ordering.html",
+                "trait.PartialOrd.html",
+                "fn.minmax.html",
+                "index.html",
+                "fn.min.html",
+                "fn.min_by_key.html",
+                "fn.minmax_by.html",
+                "fn.max_by.html",
+                "trait.Ord.html",
+                "trait.Eq.html",
+                "fn.max_by_key.html"
+            ]
+        },
+        "i64": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "num": {
+            "files": [
+                "struct.NonZeroI16.html",
+                "struct.NonZeroI64.html",
+                "struct.ParseFloatError.html",
+                "struct.NonZeroU8.html",
+                "struct.Wrapping.html",
+                "enum.IntErrorKind.html",
+                "struct.NonZeroU32.html",
+                "struct.TryFromIntError.html",
+                "enum.FpCategory.html",
+                "struct.ParseIntError.html",
+                "struct.Saturating.html",
+                "struct.NonZeroUsize.html",
+                "struct.NonZeroI128.html",
+                "index.html",
+                "struct.NonZeroU16.html",
+                "struct.NonZeroU128.html",
+                "struct.NonZeroIsize.html",
+                "struct.NonZeroI8.html",
+                "struct.NonZeroI32.html",
+                "struct.NonZeroU64.html"
+            ]
+        },
+        "u128": {
+            "files": [
+                "constant.MIN.html",
+                "constant.MAX.html",
+                "index.html"
+            ]
+        },
+        "marker": {
+            "files": [
+                "trait.Sync.html",
+                "trait.Copy.html",
+                "derive.Copy.html",
+                "struct.PhantomPinned.html",
+                "trait.StructuralPartialEq.html",
+                "trait.Unpin.html",
+                "trait.Tuple.html",
+                "trait.Unsize.html",
+                "struct.PhantomData.html",
+                "trait.PointerLike.html",
+                "trait.StructuralEq.html",
+                "trait.DiscriminantKind.html",
+                "trait.Sized.html",
+                "index.html",
+                "trait.ConstParamTy.html",
+                "derive.ConstParamTy.html",
+                "trait.Destruct.html",
+                "trait.Send.html",
+                "trait.FnPtr.html"
+            ]
+        },
+        "vec": {
+            "files": [
+                "struct.Vec.html",
+                "struct.IntoIter.html",
+                "index.html",
+                "struct.ExtractIf.html",
+                "struct.Drain.html",
+                "struct.Splice.html"
+            ]
+        },
+        "sync": {
+            "files": [
+                "struct.Condvar.html",
+                "struct.Barrier.html",
+                "type.TryLockResult.html",
+                "struct.RwLock.html",
+                "enum.TryLockError.html",
+                "struct.Arc.html",
+                "struct.Weak.html",
+                "index.html",
+                "struct.PoisonError.html",
+                "struct.Mutex.html",
+                "struct.Once.html",
+                "struct.WaitTimeoutResult.html",
+                "struct.MutexGuard.html",
+                "struct.OnceLock.html",
+                "struct.Exclusive.html",
+                "struct.OnceState.html",
+                "struct.LazyLock.html",
+                "struct.BarrierWaitResult.html",
+                "struct.RwLockWriteGuard.html",
+                "struct.RwLockReadGuard.html",
+                "type.LockResult.html",
+                "constant.ONCE_INIT.html"
+            ],
+            "once_lock": {
+                "files": [
+                    "struct.OnceLock.html"
+                ]
+            },
+            "atomic": {
+                "files": [
+                    "struct.AtomicIsize.html",
+                    "constant.ATOMIC_USIZE_INIT.html",
+                    "struct.AtomicI8.html",
+                    "struct.AtomicI64.html",
+                    "fn.spin_loop_hint.html",
+                    "struct.AtomicU64.html",
+                    "enum.Ordering.html",
+                    "struct.AtomicI16.html",
+                    "struct.AtomicU32.html",
+                    "struct.AtomicU8.html",
+                    "struct.AtomicU16.html",
+                    "struct.AtomicBool.html",
+                    "index.html",
+                    "constant.ATOMIC_BOOL_INIT.html",
+                    "struct.AtomicI32.html",
+                    "constant.ATOMIC_ISIZE_INIT.html",
+                    "fn.fence.html",
+                    "fn.compiler_fence.html",
+                    "struct.AtomicUsize.html",
+                    "struct.AtomicPtr.html"
+                ]
+            },
+            "once": {
+                "files": [
+                    "struct.Once.html",
+                    "struct.OnceState.html",
+                    "constant.ONCE_INIT.html"
+                ]
+            },
+            "mpsc": {
+                "files": [
+                    "struct.TryIter.html",
+                    "fn.sync_channel.html",
+                    "struct.Receiver.html",
+                    "struct.Iter.html",
+                    "enum.TryRecvError.html",
+                    "struct.Sender.html",
+                    "enum.RecvTimeoutError.html",
+                    "struct.IntoIter.html",
+                    "index.html",
+                    "fn.channel.html",
+                    "struct.SendError.html",
+                    "struct.RecvError.html",
+                    "enum.TrySendError.html",
+                    "struct.SyncSender.html"
+                ]
+            },
+            "rwlock": {
+                "files": [
+                    "struct.RwLock.html",
+                    "struct.RwLockWriteGuard.html",
+                    "struct.RwLockReadGuard.html"
+                ]
+            },
+            "mutex": {
+                "files": [
+                    "struct.Mutex.html",
+                    "struct.MutexGuard.html"
+                ]
+            },
+            "poison": {
+                "files": [
+                    "type.TryLockResult.html",
+                    "enum.TryLockError.html",
+                    "struct.PoisonError.html",
+                    "type.LockResult.html"
+                ]
+            },
+            "condvar": {
+                "files": [
+                    "struct.Condvar.html",
+                    "struct.WaitTimeoutResult.html"
+                ]
+            },
+            "lazy_lock": {
+                "files": [
+                    "struct.LazyLock.html"
+                ]
+            },
+            "barrier": {
+                "files": [
+                    "struct.Barrier.html",
+                    "struct.BarrierWaitResult.html"
+                ]
+            }
+        },
+        "arch": {
+            "files": [
+                "macro.is_mips_feature_detected!.html",
+                "macro.is_aarch64_feature_detected.html",
+                "macro.is_powerpc64_feature_detected!.html",
+                "macro.is_mips64_feature_detected.html",
+                "macro.is_mips64_feature_detected!.html",
+                "macro.is_powerpc_feature_detected!.html",
+                "macro.is_riscv_feature_detected!.html",
+                "macro.is_powerpc_feature_detected.html",
+                "macro.is_x86_feature_detected.html",
+                "macro.is_aarch64_feature_detected!.html",
+                "index.html",
+                "macro.is_arm_feature_detected.html",
+                "macro.is_mips_feature_detected.html",
+                "macro.is_riscv_feature_detected.html",
+                "macro.is_powerpc64_feature_detected.html",
+                "macro.is_x86_feature_detected!.html",
+                "macro.is_arm_feature_detected!.html"
+            ]
+        },
+        "ffi": {
+            "files": [
+                "struct.IntoStringError.html",
+                "type.c_uint.html",
+                "type.c_short.html",
+                "struct.CStr.html",
+                "type.c_int.html",
+                "type.c_ushort.html",
+                "type.c_uchar.html",
+                "enum.c_void.html",
+                "struct.OsString.html",
+                "type.c_ulonglong.html",
+                "struct.CString.html",
+                "type.c_longlong.html",
+                "type.c_double.html",
+                "struct.NulError.html",
+                "struct.FromVecWithNulError.html",
+                "index.html",
+                "struct.FromBytesUntilNulError.html",
+                "type.c_char.html",
+                "struct.OsStr.html",
+                "struct.VaListImpl.html",
+                "type.c_ulong.html",
+                "type.c_float.html",
+                "type.c_long.html",
+                "struct.VaList.html",
+                "struct.FromBytesWithNulError.html",
+                "type.c_schar.html"
+            ],
+            "os_str": {
+                "files": [
+                    "struct.OsString.html",
+                    "struct.OsStr.html"
+                ]
+            }
+        },
+        "convert": {
+            "files": [
+                "trait.AsRef.html",
+                "trait.Into.html",
+                "trait.TryFrom.html",
+                "trait.FloatToInt.html",
+                "fn.identity.html",
+                "index.html",
+                "trait.AsMut.html",
+                "trait.TryInto.html",
+                "trait.From.html",
+                "enum.Infallible.html"
+            ]
+        }
+    },
+    "static.files": {},
+    "img": {}
+}
