@@ -65,6 +65,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/img/logo.png
     - assets/crates1.75.0.js
     - assets/std/keyword.union.html
     - assets/std/keyword.loop.html

@@ -40,7 +40,7 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
   void initLastWebUrl() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     String initUrl = prefs.getString("last_url") ??
-        "file:///android_asset/flutter_assets/assets/index.html";
+        "file:///android_asset/flutter_assets/assets/std/index.html";
     makeAppBarTitle(initUrl);
     setState(() {
       initWiget = InAppWebView(
@@ -289,7 +289,7 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
             itemBuilder: (context, index) {
               if (index == 0) {
                 return const DrawerHeader(
-                  decoration: BoxDecoration(color: Colors.purple),
+                  decoration: BoxDecoration(color: Colors.blue),
                   child: Center(
                     child: Column(
                       children: [

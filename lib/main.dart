@@ -7,7 +7,8 @@ import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 import 'rust_doc.dart';
 
-final localhostServer = InAppLocalhostServer(documentRoot: 'assets');
+final localhostServer =
+    InAppLocalhostServer(documentRoot: 'assets', port: 8793);
 
 Future main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
