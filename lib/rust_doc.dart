@@ -345,6 +345,7 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
           toolbarHeight: 65,
           title: showSearchBar
               ? Autocomplete<String>(
+                  optionsMaxHeight: 500,
                   fieldViewBuilder: (context, textEditingController, focusNode,
                       onFieldSubmitted) {
                     return TextField(
