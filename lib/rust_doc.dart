@@ -297,7 +297,7 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
                           height: 80,
                           child: CircleAvatar(
                             radius: 40,
-                            backgroundImage: AssetImage("assets/img/logo.png"),
+                            backgroundImage: AssetImage("assets/img/logo.jpg"),
                           ),
                         ),
                         Text(
