@@ -269,6 +269,8 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
   TextEditingController searchController = TextEditingController();
   TextEditingValue textEditingValue = const TextEditingValue();
   bool showSearchBar = false;
+  bool expandSearchBar = true;
+  bool autoFocus = false;
   IconData appBarSeacrchIcon = Icons.search;
   @override
   Widget build(BuildContext context) {
@@ -283,112 +285,228 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
         }
       },
       child: Scaffold(
-        drawer: Drawer(
-          child: ListView.builder(
-            itemCount: listOfSurfaceFolders.length + 1,
-            itemBuilder: (context, index) {
-              if (index == 0) {
-                return const DrawerHeader(
-                  decoration: BoxDecoration(color: Colors.blue),
-                  child: Center(
-                    child: Column(
-                      children: [
-                        SizedBox(
-                          height: 80,
-                          child: CircleAvatar(
-                            radius: 40,
-                            backgroundImage: AssetImage("assets/img/logo.jpg"),
-                          ),
-                        ),
-                        Text(
-                          "RUST DOC",
-                          style: TextStyle(
-                              fontSize: 40, fontWeight: FontWeight.w900),
-                        ),
-                      ],
-                    ),
-                  ),
-                );
-              } else {
-                return Padding(
-                  padding: const EdgeInsets.only(
-                      left: 15, right: 15, top: 3, bottom: 3),
-                  child: TextButton.icon(
-                    onPressed: () {
-                      webViewController?.loadUrl(
-                        urlRequest: URLRequest(
-                          url: WebUri(
-                            "file:///android_asset/flutter_assets/assets/std/${listOfSurfaceFolders[index - 1]}/index.html",
+        drawer: expandSearchBar
+            ? Drawer(
+                child: ListView.builder(
+                  itemCount: listOfSurfaceFolders.length + 1,
+                  itemBuilder: (context, index) {
+                    if (index == 0) {
+                      return const DrawerHeader(
+                        decoration: BoxDecoration(color: Colors.blue),
+                        child: Center(
+                          child: Column(
+                            children: [
+                              SizedBox(
+                                height: 80,
+                                child: CircleAvatar(
+                                  radius: 40,
+                                  backgroundImage:
+                                      AssetImage("assets/img/logo.jpg"),
+                                ),
+                              ),
+                              Text(
+                                "RUST DOC",
+                                style: TextStyle(
+                                    fontSize: 40, fontWeight: FontWeight.w900),
+                              ),
+                            ],
                           ),
                         ),
                       );
-                      if (Scaffold.of(context).isDrawerOpen) {
-                        Scaffold.of(context).closeDrawer();
-                      }
-                    },
-                    icon: const Icon(Icons.folder),
-                    label: Row(
-                      children: [
-                        Text(
-                          listOfSurfaceFolders[index - 1],
-                          style: const TextStyle(fontSize: 22),
+                    } else {
+                      return Padding(
+                        padding: const EdgeInsets.only(
+                            left: 15, right: 15, top: 3, bottom: 3),
+                        child: TextButton.icon(
+                          onPressed: () {
+                            webViewController?.loadUrl(
+                              urlRequest: URLRequest(
+                                url: WebUri(
+                                  "file:///android_asset/flutter_assets/assets/std/${listOfSurfaceFolders[index - 1]}/index.html",
+                                ),
+                              ),
+                            );
+                            if (Scaffold.of(context).isDrawerOpen) {
+                              Scaffold.of(context).closeDrawer();
+                            }
+                          },
+                          icon: const Icon(Icons.folder),
+                          label: Row(
+                            children: [
+                              Text(
+                                listOfSurfaceFolders[index - 1],
+                                style: const TextStyle(fontSize: 22),
+                              ),
+                            ],
+                          ),
                         ),
-                      ],
-                    ),
-                  ),
-                );
-              }
-            },
-          ),
-        ),
+                      );
+                    }
+                  },
+                ),
+              )
+            : null,
         appBar: AppBar(
           toolbarHeight: 65,
-          title: showSearchBar
-              ? Autocomplete<String>(
-                  optionsMaxHeight: 500,
-                  fieldViewBuilder: (context, textEditingController, focusNode,
-                      onFieldSubmitted) {
-                    return TextField(
-                      controller: textEditingController,
-                      focusNode: focusNode,
-                      onEditingComplete: onFieldSubmitted,
-                      decoration: InputDecoration(
-                          hintText: "Search document",
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(100))),
-                    );
-                  },
-                  optionsBuilder: (TextEditingValue textEditingValue) {
-                    if (textEditingValue.text == '') {
-                      return const Iterable<String>.empty();
-                    }
-                    return allHTMLFilesPathSorted.where((String option) {
-                      return option
-                          .contains(textEditingValue.text.toLowerCase());
-                    });
-                  },
-                  onSelected: (String selection) {
-                    webViewController?.loadUrl(
+          title: Row(
+            children: [
+              if (expandSearchBar)
+                SizedBox(
+                  height: 35,
+                  width: 35,
+                  child: IconButton(
+                    iconSize: 20,
+                    icon: const Icon(
+                      Icons.home,
+                    ),
+                    onPressed: () async {
+                      final SharedPreferences prefs =
+                          await SharedPreferences.getInstance();
+                      String homePage = prefs.getString("home_page") ??
+                          "file:///android_asset/flutter_assets/assets/std/index.html";
+                      await webViewController?.loadUrl(
                         urlRequest: URLRequest(
-                            url: WebUri(
-                                "file:///android_asset/flutter_assets/assets/std/$selection")));
-                  },
-                )
-              : SingleChildScrollView(
-                  scrollDirection: Axis.horizontal, child: Text(appBarTitile)),
-          actions: [
-            IconButton(
-              onPressed: () {
-                setState(() {
-                  showSearchBar = !showSearchBar;
-                  appBarSeacrchIcon = showSearchBar
-                      ? Icons.arrow_forward_ios_rounded
-                      : Icons.search;
-                });
-              },
-              icon: Icon(appBarSeacrchIcon),
-            ),
-          ],
+                          url: WebUri(homePage),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+              if (expandSearchBar)
+                const SizedBox(
+                  width: 5,
+                ),
+              Expanded(
+                child: SizedBox(
+                  height: 45,
+                  child: Autocomplete<String>(
+                    optionsMaxHeight: 500,
+                    fieldViewBuilder: (context, textEditingController,
+                        focusNode, onFieldSubmitted) {
+                      return TextField(
+                        textAlignVertical: TextAlignVertical.bottom,
+                        textAlign: TextAlign.start,
+                        style: const TextStyle(fontSize: 13),
+                        controller: textEditingController,
+                        focusNode: focusNode,
+                        autofocus: autoFocus,
+                        onTapOutside: (event) {
+                          focusNode.unfocus();
+                          setState(() {
+                            autoFocus = false;
+                            expandSearchBar = true;
+                          });
+                        },
+                        onTap: () {
+                          focusNode.requestFocus();
+                          setState(() {
+                            autoFocus = true;
+                            expandSearchBar = false;
+                          });
+                        },
+                        onEditingComplete: onFieldSubmitted,
+                        decoration: InputDecoration(
+                          hintText: appBarTitile,
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(100),
+                          ),
+                        ),
+                      );
+                    },
+                    optionsBuilder: (TextEditingValue textEditingValue) {
+                      if (textEditingValue.text == '') {
+                        return const Iterable<String>.empty();
+                      }
+                      return allHTMLFilesPathSorted.where((String option) {
+                        return option
+                            .contains(textEditingValue.text.toLowerCase());
+                      });
+                    },
+                    onSelected: (String selection) {
+                      webViewController?.loadUrl(
+                          urlRequest: URLRequest(
+                              url: WebUri(
+                                  "file:///android_asset/flutter_assets/assets/std/$selection")));
+                    },
+                  ),
+                ),
+              ),
+              if (expandSearchBar)
+                const SizedBox(
+                  width: 5,
+                ),
+              if (expandSearchBar)
+                SizedBox(
+                  height: 35,
+                  width: 35,
+                  child: IconButton(
+                    iconSize: 20,
+                    icon: const Icon(Icons.arrow_back),
+                    onPressed: () async {
+                      await webViewController?.goBack();
+                    },
+                  ),
+                ),
+              if (expandSearchBar)
+                const SizedBox(
+                  width: 5,
+                ),
+              if (expandSearchBar)
+                SizedBox(
+                  height: 35,
+                  width: 35,
+                  child: IconButton(
+                    padding: EdgeInsets.zero,
+                    iconSize: 20,
+                    icon: const Icon(Icons.arrow_forward),
+                    onPressed: () async {
+                      await webViewController?.goForward();
+                    },
+                  ),
+                ),
+              if (expandSearchBar)
+                SizedBox(
+                  height: 35,
+                  width: 35,
+                  child: PopupMenuButton(
+                    itemBuilder: (context) => [
+                      PopupMenuItem(
+                        child: const Text("Reload"),
+                        onTap: () async {
+                          await webViewController?.reload();
+                        },
+                      ),
+                      PopupMenuItem(
+                        child: const Text(
+                          "Set as your Home page",
+                        ),
+                        onTap: () async {
+                          final webUri = await webViewController?.getUrl();
+                          String currentURL = webUri.toString();
+                          final SharedPreferences prefs =
+                              await SharedPreferences.getInstance();
+                          await prefs.setString("home_page", currentURL);
+                          showToast("Set this as your Home page done.");
+                        },
+                      ),
+                      PopupMenuItem(
+                        child: const Text(
+                          "Go to defult home page",
+                        ),
+                        onTap: () async {
+                          webViewController?.loadUrl(
+                            urlRequest: URLRequest(
+                              url: WebUri(
+                                  "file:///android_asset/flutter_assets/assets/std/index.html"),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
+                  ),
+                ),
+            ],
+          ),
         ),
         // drawer: Drawer(),
         body: SafeArea(
@@ -403,84 +521,6 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
                         : Container(),
                   ],
                 ),
-              ),
-            ],
-          ),
-        ),
-        floatingActionButton: FloatingActionButton.extended(
-          backgroundColor: const Color.fromARGB(70, 50, 50, 50),
-          onPressed: () {},
-          label: Row(
-            children: [
-              IconButton(
-                icon: const Icon(Icons.arrow_back),
-                onPressed: () async {
-                  await webViewController?.goBack();
-                },
-              ),
-              IconButton(
-                icon: const Icon(Icons.arrow_forward),
-                onPressed: () async {
-                  await webViewController?.goForward();
-                },
-              ),
-              IconButton(
-                icon: const Icon(Icons.refresh),
-                onPressed: () async {
-                  await webViewController?.reload();
-                },
-              ),
-              IconButton(
-                icon: const Icon(Icons.home),
-                onPressed: () async {
-                  final SharedPreferences prefs =
-                      await SharedPreferences.getInstance();
-                  String homePage = prefs.getString("home_page") ??
-                      "file:///android_asset/flutter_assets/assets/std/index.html";
-                  await webViewController?.loadUrl(
-                    urlRequest: URLRequest(
-                      url: WebUri(homePage),
-                    ),
-                  );
-                },
-              ),
-              PopupMenuButton(
-                itemBuilder: (context) => [
-                  PopupMenuItem(
-                    child: const Row(
-                      children: [
-                        Text(
-                          "Set as your Home page",
-                        ),
-                      ],
-                    ),
-                    onTap: () async {
-                      final webUri = await webViewController?.getUrl();
-                      String currentURL = webUri.toString();
-                      final SharedPreferences prefs =
-                          await SharedPreferences.getInstance();
-                      await prefs.setString("home_page", currentURL);
-                      showToast("Set this as your Home page done.");
-                    },
-                  ),
-                  PopupMenuItem(
-                    child: const Row(
-                      children: [
-                        Text(
-                          "Go to defult home page",
-                        ),
-                      ],
-                    ),
-                    onTap: () async {
-                      webViewController?.loadUrl(
-                        urlRequest: URLRequest(
-                          url: WebUri(
-                              "file:///android_asset/flutter_assets/assets/std/index.html"),
-                        ),
-                      );
-                    },
-                  ),
-                ],
               ),
             ],
           ),
