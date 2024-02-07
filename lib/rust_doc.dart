@@ -274,6 +274,7 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
   IconData appBarSeacrchIcon = Icons.search;
   @override
   Widget build(BuildContext context) {
+    listOfSurfaceFolders.sort();
     return PopScope(
       canPop: false,
       onPopInvoked: (didPop) async {
@@ -292,7 +293,8 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
                   itemBuilder: (context, index) {
                     if (index == 0) {
                       return const DrawerHeader(
-                        decoration: BoxDecoration(color: Colors.blue),
+                        decoration: BoxDecoration(
+                            color: Color.fromARGB(100, 33, 149, 243)),
                         child: Center(
                           child: Column(
                             children: [
@@ -334,7 +336,10 @@ class InAppWebViewExampleScreenState extends State<InAppWebViewExampleScreen> {
                           label: Row(
                             children: [
                               Text(
-                                listOfSurfaceFolders[index - 1],
+                                listOfSurfaceFolders[index - 1][0]
+                                        .toUpperCase() +
+                                    listOfSurfaceFolders[index - 1]
+                                        .substring(1),
                                 style: const TextStyle(fontSize: 22),
                               ),
                             ],

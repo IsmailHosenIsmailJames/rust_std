@@ -36,9 +36,21 @@ class MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.dark,
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.system,
+      theme: ThemeData.light().copyWith(
+          textButtonTheme: TextButtonThemeData(
+              style: TextButton.styleFrom(
+        iconColor: const Color.fromARGB(255, 12, 56, 91),
+        backgroundColor: const Color.fromARGB(50, 130, 130, 130),
+        foregroundColor: const Color.fromARGB(255, 25, 25, 25),
+      ))),
+      darkTheme: ThemeData.dark().copyWith(
+          textButtonTheme: TextButtonThemeData(
+              style: TextButton.styleFrom(
+        iconColor: const Color.fromARGB(255, 151, 208, 255),
+        backgroundColor: const Color.fromARGB(50, 130, 130, 130),
+        foregroundColor: const Color.fromARGB(255, 221, 221, 221),
+      ))),
       home: const InAppWebViewExampleScreen(),
     );
   }
