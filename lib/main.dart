@@ -13,6 +13,7 @@ Future<void> main() async {
   if (!kIsWeb) {
     await localhostServer.start();
   }
+
   runApp(const MyApp());
 }
 
@@ -22,10 +23,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.system,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      home: HomePage(),
+      home: WebViewInApp(),
     );
   }
 }
