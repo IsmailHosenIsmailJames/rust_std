@@ -1,4 +1,4 @@
-package com.example.rust_std
+package com.rust_std.md_ismail_hosen
 
 import io.flutter.embedding.android.FlutterActivity
 
