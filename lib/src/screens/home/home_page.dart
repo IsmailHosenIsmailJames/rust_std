@@ -39,7 +39,7 @@ class WebViewInAppState extends State<WebViewInApp> {
 
   void initLastWebUrl() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    String? homeURL = prefs.getString("home");
+    String? homeURL = prefs.getString("last_url");
     log(homeURL.toString());
     setState(() {
       initWidget = InAppWebView(
@@ -76,8 +76,8 @@ class WebViewInAppState extends State<WebViewInApp> {
               context: context,
               builder: (context) {
                 return Dialog(
+                  insetPadding: EdgeInsets.all(10),
                   child: SizedBox(
-                    height: 200,
                     width: double.infinity,
                     child: Padding(
                       padding: const EdgeInsets.all(15.0),

@@ -23,6 +23,7 @@ dependencies:
   flutter_native_splash: ^2.4.3
   shared_preferences: ^2.3.4
   url_launcher: ^6.3.1
+  icons_launcher: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -230,3 +231,12 @@ flutter:
     - assets/std/os/wasi/io/
     - assets/std/os/wasi/ffi/os_str/
     - assets/std/str/pattern/
+
+
+icons_launcher:
+  image_path: "img/unnamed.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
